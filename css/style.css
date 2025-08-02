@@ -47,11 +47,27 @@ nav {
 .img-info {
   background-color: #c1a269;
   width: 590px;
+  text-align: center;
+  padding: 68.57px 50px 203px;
+}
+.img-info h2,
+h3,
+p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.img-info h3 {
+  margin-top: 23.26px;
+}
+.img-info p {
+  font-size: 18px;
 }
 .img-text {
   display: flex;
   margin-top: 19.3px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .raspberry-section {
   flex-direction: column;
@@ -64,11 +80,11 @@ nav {
   color: #106e33;
   font-size: 32px;
   font-weight: 700;
-  font-style: bold;
   line-height: 100%;
   text-transform: uppercase;
 }
 .order-btn {
   background-color: #ffffff;
   color: #106e33;
+  margin-top: 25px;
 }
