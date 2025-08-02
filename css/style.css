@@ -6,7 +6,9 @@
   align-items: center;
   padding: 0;
 }
-
+nav {
+  height: 22px;
+}
 .list {
   display: flex;
   gap: 38px;
@@ -41,18 +43,32 @@
   width: 100%;
   object-fit: cover;
 }
-.order-btn {
-  background-color: #FFFFFF;
-  color: #106E33
-}
+
 .img-info {
-  background-color: #C1A269;
+  background-color: #c1a269;
   width: 590px;
 }
 .img-text {
   display: flex;
-
+  margin-top: 19.3px;
+  text-transform: uppercase;
 }
 .raspberry-section {
   flex-direction: column;
+  height: 600px;
+  margin-top: 39px;
+  margin-bottom: 812px;
+  align-items: flex-start;
+}
+.section-title {
+  color: #106e33;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.order-btn {
+  background-color: #ffffff;
+  color: #106e33;
 }
